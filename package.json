@@ -1,0 +1,23 @@
+{
+  "name": "tesseract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "convert": "nodemon convert-to-image.js",
+    "tess": "nodemon tesseract.js",
+    "start": "nodemon dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node-schedule": "^1.2.2",
+    "node-schedule": "^1.3.0",
+    "tesseract.js": "^1.0.10",
+    "typescript": "^2.8.3"
+  },
+  "devDependencies": {
+    "@types/tesseract.js": "0.0.2"
+  }
+}
